@@ -1,28 +1,31 @@
-****Abstract****
+****Abstract
+
+
+<br>
+****Introduction
 
 
 
-####Introduction
+<br>
+****Base dataset
 
 
 
-####Base dataset
+<br>
+****Transform stage 1
 
 
 
-####Transform stage 1
+<br>
+****Transform stage 2
 
 
 
-####Transform stage 2
+<br>
+****Prepped for analysis
 
 
 
-
-####Prepped for analysis
-
-
-
-
-####Analysis
+<br>
+****Analysis
 
