@@ -47,3 +47,9 @@ Lorem ipsum
 
 Lorem ipsum
 
+
+<br>
+
+****Fair use****
+
+Lorem ipsum
