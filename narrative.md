@@ -1,6 +1,6 @@
 ****Abstract****
 
-This project compares artificial intelligence generated content labels for a set of images against similiarly generated labels for reduced resolution versions of those same images.
+This project compares artificial intelligence generated content labels for a set of images against identically generated labels for reduced resolution versions of those same images.
 
 
 <br>
