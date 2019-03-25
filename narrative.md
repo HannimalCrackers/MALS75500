@@ -23,7 +23,7 @@ Critique: I do not have insight into the inner workings of this plug-in. It down
 
 ****Transform stage 1****
 
-Reduced the images to 25% original dimensions using the Image Size function in Photoshop.
+I reduced the images to 25% original dimensions using the Image Size function in Photoshop, constraining the dimensions and using automatic resampling. I saved the down-resolutioned images as maximum-quality JPEGs (standard baseline) with  
 
 
 
