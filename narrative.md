@@ -23,7 +23,7 @@ Critique: I do not have insight into the inner workings of this plug-in. It down
 
 ****Transform stage 1****
 
-Lorem ipsum
+Reduced the images to 25% original dimensions using the Image Size function in Photoshop.
 
 
 
