@@ -11,6 +11,8 @@ Why the NYC instagram account...
 
 This is laying the ground work and testing methods for a potential future project which would use artificial intelligence content labeling on a more extensive set of governmental social media images.
 
+Why Google Vision...
+
 
 <br>
 
@@ -22,6 +24,8 @@ To obtain the images I used a Chrome extension called "Downloader for Instagram�
 
 Critique: I do not have insight into the inner workings of this plug-in. It downloaded images of varying dimensions, which is consistent with the different maximum resolutions allowed on Instagram at different times. I spot checked the dimensions of a sample of downloaded images against the dimensions listed under "Inspect Element" in the Safari browser when viewing the Instagram page and found that the "natural" dimensions listed were consistent with the dimensions of the images as downloaded.
 
+LINK TO DATA:
+
 
 <br>
 
@@ -29,25 +33,44 @@ Critique: I do not have insight into the inner workings of this plug-in. It down
 
 Transform stage 1: create second test image set at reduced resolution
 
-I created an action in Photoshop that reduced images to 50% original dimensions using the Image Size function in Photoshop, constraining the dimensions and using automatic resampling, and then saved the down-resolutioned images as maximum-quality JPEGs (standard baseline). I ran this action twice, resulting in images that were 25% the original dimensions.
+I created an action in Photoshop that reduced images to 50% original dimensions using the Image Size function in Photoshop, constraining the dimensions and using automatic resampling, and then saved the down-resolutioned images as maximum-quality JPEGs (standard baseline). I ran this action twice, resulting in images that were 25% the original dimensions (e.g., a 1080 × 1349 px image was reduced to 270 × 338 px).
 
 Critique: In retrospect I should have run a single action that saved down to 25% in one step, as JPEG is a lossy compression format and introducing an extra level of saving as a JPEG could potentially introduce compression artifacts that might influence the Google Vision artificial intelligence's interpretation of the image contents.
 
+LINK TO DATA:
 
 
 <br>
 
 ****Transform stage 2****
 
-Lorem ipsum
+Transform stage 2: artifical intelligence content labels using API
+
+I wrote a Python script, based off samples provided in the Google Vision API documentation, that runs all of the images in the same folder as the script through the Google Vision API and pulls content labels for each image. I ran this script on both the base set of full-size images and on the reduced size set of images. The output of the script is a CSV with each result for each image on a separate line.
+
+
+Critique:
+
+LINK TO DATA - THIS HAS TWO SECTIONS:
 
 
 
 <br>
 
-****Prepped for analysis****
+****Transform stage 3****
 
-Lorem ipsum
+Transform stage 3: manipulating the data formatting
+
+- Ideally this would have been done in Python as well but I worked in Excel to save time
+- Deleted all brackets, single quotes, spaces after commas
+- Added column with cityname
+- Added column headers
+- Saved out as CSV
+
+
+Critique: 
+
+LINK TO DATA - THIS HAS TWO SECTIONS:
 
 
 
