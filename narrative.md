@@ -7,7 +7,7 @@ This project compares artificial intelligence generated content labels for a set
 
 ****Introduction****
 
-Lorem ipsum
+Why the NYC instagram account...
 
 
 <br>
@@ -16,7 +16,7 @@ Lorem ipsum
 
 The base dataset is comprised of 387 images downloaded on March 2, 2019 from the official New York City Instagram account at https://www.instagram.com/nycgov/. To obtain the images I used a Chrome extension called "Downloader for Instagram™ (+ Upload photo)" version 5.0.70, offered by developer aboveradiant@gmail.com. 
 
-Critique: 
+Critique: I do not have insight into the inner workings of this plug-in. It downloaded images of varying dimensions, which is consistent with the different maximum resolutions allowed on Instagram at different times. I spot checked the dimensions of a sample of downloaded images against the dimensions listed under "Inspect Element" in the Safari browser when viewing the Instagram page and found that the "natural" dimensions listed were consistent with the dimensions of the images as downloaded.
 
 
 <br>
