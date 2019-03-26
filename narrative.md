@@ -46,7 +46,7 @@ LINK TO DATA: https://github.com/HannimalCrackers/MALS75500/tree/master/01_image
 
 Transform stage 2: artifical intelligence content labels using API
 
-I wrote a Python script, based off samples provided in the Google Vision API documentation, that runs all of the images in the same folder as the script through the Google Vision API and pulls content labels for each image. I ran this script on both the base set of full-size images and on the reduced size set of images. The output of the script is a CSV with each result for each image on a separate line.
+I wrote a Python script, based off samples provided in the Google Vision API documentation, that runs all of the images in the same folder as the script through the Google Vision API and pulls content labels for each image. I ran this script on both the base set of full-size images and on the reduced size set of images. The output of the script is a CSV with each result for each image on a separate line. Google Vision most commonly returned 9 or 10 labels for each image. 
 
 
 Critique: As stated in the introduction, I went into this project fully aware that the Google Vision AI is opaque and the labels assigned are based on unknown machine learning image sets. The watchout here is to keep in mind that the AI is not providing a determination of image contents, but rather an interpretation – the foundations of which are unknowable. One potential point of weakness in the data flow at this stage is in the Python script used to interact with the Google Vision API. My script seems to be interacting with the AI as desired, but code is an easy place for undesired functionality to slip in, particularly with less experienced coders.
@@ -79,7 +79,16 @@ NYC 25%: https://github.com/HannimalCrackers/MALS75500/blob/master/04_processed-
 
 ****Analysis****
 
-The quantitative reduction in image resolution resulted in a qualitative difference in the recognized content.
+The quantitative reduction in image resolution resulted in a qualitative difference in the recognized content. "Sky" was the most common label applied to the full-size images (n=199), but only 110 of the reduced size images were labeled with "Sky". Vagaries in the training data are evident in the differential applications of the "Metropolitan area", "Urban area" and "Human settlement" labels. "Metropolitan area" was applied roughly equally (122 full size vs 125 reduced), whereas "Urban area" was predominantly a label applied to full size images (144 full size vs 88 reduced), and "Human settlement" predominantly given to reduced size images (84 full size vs 105 reduced).
+
+"Tree" Interestingly, Google Vision labeled more of the reduced resolution images with "Landmark" (80 full size vs 97 reduced).
+
+I need to look at the images that were labeled with one thing (e.g., sky) and see what that label was replaced with.
+
+
+LINK TO IMAGES:
+NYC: https://github.com/HannimalCrackers/MALS75500/blob/master/05_visualizations/NYC/NYC_bar_chart.png
+NYC 25%: https://github.com/HannimalCrackers/MALS75500/blob/master/05_visualizations/NYC_25pct/NYC_25pct_bar_chart.png
 
 
 <br>
