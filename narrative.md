@@ -24,7 +24,7 @@ To obtain the images I used a Chrome extension called "Downloader for Instagramâ
 
 Critique: I do not have insight into the inner workings of this plug-in. It downloaded images of varying dimensions, which is consistent with the different maximum resolutions allowed on Instagram at different times. I spot checked the dimensions of a sample of downloaded images against the dimensions listed under "Inspect Element" in the Safari browser when viewing the Instagram page and found that the "natural" dimensions listed were consistent with the dimensions of the images as downloaded.
 
-LINK TO DATA:
+LINK TO DATA: https://github.com/HannimalCrackers/MALS75500/tree/master/01_image-sets/NYC
 
 
 <br>
@@ -37,7 +37,7 @@ I created an action in Photoshop that reduced images to 50% original dimensions 
 
 Critique: In retrospect I should have run a single action that saved down to 25% in one step, as JPEG is a lossy compression format and introducing an extra level of saving as a JPEG could potentially introduce compression artifacts that might influence the Google Vision artificial intelligence's interpretation of the image contents.
 
-LINK TO DATA:
+LINK TO DATA: https://github.com/HannimalCrackers/MALS75500/tree/master/01_image-sets/NYC_25pct
 
 
 <br>
@@ -51,9 +51,13 @@ I wrote a Python script, based off samples provided in the Google Vision API doc
 
 Critique: As stated in the introduction, I went into this project fully aware that the Google Vision AI is opaque and the labels assigned are based on unknown machine learning image sets. The watchout here is to keep in mind that the AI is not providing a determination of image contents, but rather an interpretation â€“ the foundations of which are unknowable. One potential point of weakness in the data flow at this stage is in the Python script used to interact with the Google Vision API. My script seems to be interacting with the AI as desired, but code is an easy place for undesired functionality to slip in, particularly with less experienced coders.
 
-LINK TO DATA - THIS HAS TWO SECTIONS:
+LINK TO DATA - THIS HAS TWO SCRIPTS AND TWO OUTPUT CSVS:
 
+NYC Script: https://github.com/HannimalCrackers/MALS75500/blob/master/02_script/NYC/label-getter_nyc.py
+NYC Output CSV: https://github.com/HannimalCrackers/MALS75500/blob/master/03_script-output/NYC/stage1_out_nyc.csv
 
+NYC 25% Script: https://github.com/HannimalCrackers/MALS75500/blob/master/02_script/NYC_25pct/label-getter_nyc_25pct.py
+NYC 25% Output CSV: uploaded wrong file, replace
 
 <br>
 
@@ -65,8 +69,10 @@ I would have liked to write a Python script to accomplish the following, but end
 
 Critique: Any manual intervention like this is subject to errors of consistency. I did use global functions such as "Find and Replace" to minimize the likelihood of such.
 
-LINK TO DATA - THIS HAS TWO SECTIONS:
+LINK TO DATA - THIS HAS TWO CSVS:
 
+NYC:
+NYC 25%: 
 
 
 <br>
