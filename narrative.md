@@ -78,7 +78,7 @@ LINK TO DATA - THIS HAS TWO SECTIONS:
 
 ****Analysis****
 
-Lorem ipsum
+The quantitative reduction in image resolution resulted in a qualitative difference in the recognized content.
 
 
 <br>
