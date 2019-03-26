@@ -7,7 +7,7 @@ This project compares artificial intelligence generated content labels for a set
 
 ****Introduction****
 
-The Google Vision artificial intelligence (AI), like most AIs, is opaque and the labels it assigns are based on unknown machine learning image sets. Yet AIs are becoming an increasingly significant audience, the machine gaze used to evaluate us, for instance, as potential consumers — or potential threats. In this project, I harness the AI gaze and turn it on the official New York City presentation of self through the Instagram social media channel. In keeping with the spirit of Data TRIKE, I investigate here how the manipulation of data inputs (in this case image resolution) affected the AI's interpretation of the image contents.
+The Google Vision artificial intelligence (AI), like most AIs, is opaque and the labels it assigns are based on unknown machine learning image sets. Yet AIs are becoming an increasingly significant audience, the machine gaze used to evaluate us, for instance, as potential consumers — or potential threats. In this project, I turn Google Vision's AI gaze on the official New York City presentation of self through the Instagram social media channel. In keeping with the spirit of Data TRIKE, I investigate here how the manipulation of data inputs (in this case image resolution) affects the AI's interpretation of the image contents.
 
 I chose the NYC instagram account to lay ground work and test methods for a potential future project which would use artificial intelligence content labeling on a more extensive set of governmental social media images.
 
