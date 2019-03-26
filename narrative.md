@@ -11,7 +11,7 @@ Why the NYC instagram account...
 
 This is laying the ground work and testing methods for a potential future project which would use artificial intelligence content labeling on a more extensive set of governmental social media images.
 
-I chose Google Vision due to the accessibility of its API, which includes a test function where one can get sample results on a single image at a time without coding. After initial testing I wrote code, based on samples provided in the documentatin, to pull results for batches of images.
+I chose Google Vision due to the accessibility of its API, which includes a test function where one can get sample results on a single image at a time without coding. After initial testing I wrote code, based on sample code provided in the documentation, to pull results for batches of images.
 
 
 <br>
@@ -49,7 +49,7 @@ Transform stage 2: artifical intelligence content labels using API
 I wrote a Python script, based off samples provided in the Google Vision API documentation, that runs all of the images in the same folder as the script through the Google Vision API and pulls content labels for each image. I ran this script on both the base set of full-size images and on the reduced size set of images. The output of the script is a CSV with each result for each image on a separate line.
 
 
-Critique: the Google Vision AI is opaque.
+Critique: the Google Vision AI is opaque and the labels assigned are based on unknown machine learning image sets.
 
 LINK TO DATA - THIS HAS TWO SECTIONS:
 
