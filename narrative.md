@@ -7,9 +7,9 @@ This project compares artificial intelligence generated content labels for a set
 
 ****Introduction****
 
-Why the NYC instagram account...
+The Google Vision artificial intelligence (AI), like most AIs, is opaque and the labels it assigns are based on unknown machine learning image sets. Yet AIs are becoming an increasingly significant audience, the machine gaze used to evaluate us, for instance, as potential consumers — or potential threats. In this project, I harness the AI gaze and turn it on the official New York City presentation of self through the Instagram social media channel. In keeping with the spirit of Data TRIKE, I investigate here how the manipulation of data inputs (in this case image resolution) affected the AI's interpretation of the image contents.
 
-This is laying the ground work and testing methods for a potential future project which would use artificial intelligence content labeling on a more extensive set of governmental social media images.
+I chose the NYC instagram account to lay ground work and test methods for a potential future project which would use artificial intelligence content labeling on a more extensive set of governmental social media images.
 
 I chose Google Vision due to the accessibility of its API, which includes a test function where one can get sample results on a single image at a time without coding. After initial testing I wrote code, based on sample code provided in the documentation, to pull results for batches of images.
 
@@ -49,7 +49,7 @@ Transform stage 2: artifical intelligence content labels using API
 I wrote a Python script, based off samples provided in the Google Vision API documentation, that runs all of the images in the same folder as the script through the Google Vision API and pulls content labels for each image. I ran this script on both the base set of full-size images and on the reduced size set of images. The output of the script is a CSV with each result for each image on a separate line.
 
 
-Critique: the Google Vision AI is opaque and the labels assigned are based on unknown machine learning image sets.
+Critique: As stated in the introduction, I went into this project fully aware that the Google Vision AI is opaque and the labels assigned are based on unknown machine learning image sets. The watchout here is to keep in mind that the AI is not providing a determination of image contents, but rather an interpretation – the foundations of which are unknowable. One potential point of weakness in the data flow at this stage is in the Python script used to interact with the Google Vision API. My script seems to be interacting with the AI as desired, but code is an easy place for undesired functionality to slip in, particularly with less experienced coders.
 
 LINK TO DATA - THIS HAS TWO SECTIONS:
 
@@ -61,14 +61,9 @@ LINK TO DATA - THIS HAS TWO SECTIONS:
 
 Transform stage 3: manipulating the data formatting
 
-- Ideally this would have been done in Python as well but I worked in Excel to save time
-- Deleted all brackets, single quotes, spaces after commas
-- Added column with cityname
-- Added column headers
-- Saved out as CSV
+I would have liked to write a Python script to accomplish the following, but ended up just using Excel to save time. In this stage I edited the CSV output of my Python script from stage 2. I deleted all brackets, single quotes, and spaces after commas, added a column with the cityname, added column headers (field names), and saved as a CSV.
 
-
-Critique: This intervention is subject to errors
+Critique: Any manual intervention like this is subject to errors of consistency. I did use global functions such as "Find and Replace" to minimize the likelihood of such.
 
 LINK TO DATA - THIS HAS TWO SECTIONS:
 
