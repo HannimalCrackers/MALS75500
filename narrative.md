@@ -57,7 +57,7 @@ NYC Script: https://github.com/HannimalCrackers/MALS75500/blob/master/02_script/
 NYC Output CSV: https://github.com/HannimalCrackers/MALS75500/blob/master/03_script-output/NYC/stage1_out_nyc.csv
 
 NYC 25% Script: https://github.com/HannimalCrackers/MALS75500/blob/master/02_script/NYC_25pct/label-getter_nyc_25pct.py
-NYC 25% Output CSV: uploaded wrong file, replace
+NYC 25% Output CSV: https://github.com/HannimalCrackers/MALS75500/blob/master/03_script-output/NYC_25pct/stage1_out_nyc_25pct.csv
 
 <br>
 
@@ -71,8 +71,8 @@ Critique: Any manual intervention like this is subject to errors of consistency.
 
 LINK TO DATA - THIS HAS TWO CSVS:
 
-NYC:
-NYC 25%: 
+NYC: https://github.com/HannimalCrackers/MALS75500/blob/master/04_processed-data/NYC/stage2_excel_nyc.csv
+NYC 25%: https://github.com/HannimalCrackers/MALS75500/blob/master/04_processed-data/NYC_25pct/stage2_excel_nyc_25pct.csv
 
 
 <br>
